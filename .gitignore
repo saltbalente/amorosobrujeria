@@ -1,0 +1,39 @@
+# Logs y archivos temporales
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Archivos de desarrollo
+*.md.backup
+*.html.bak
+*.bak
+
+# Archivos de sistema
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de cache local
+.cache/
+node_modules/
+npm-debug.log*
+
+# Archivos de configuración local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de backup
+backup/
+backups/
+*.backup
+
+# Archivos de documentación temporal
+TEMP-*.md
+DEBUG-*.md
+TEST-*.md

@@ -1,0 +1,50 @@
+/* CSS para iconos offline - Soluciona el problema de rutas relativas en protocolo file:// */
+
+@font-face {
+    font-family: 'eicons';
+    src: url('./wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons221d.eot?5.41.0');
+    src: url('./wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons221d.eot?5.41.0#iefix') format('embedded-opentype'),
+         url('./wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons221d.woff2?5.41.0') format('woff2'),
+         url('./wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons221d.woff?5.41.0') format('woff'),
+         url('./wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons221d.ttf?5.41.0') format('truetype'),
+         url('./wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons221d.svg?5.41.0#eicon') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url('./wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2') format('woff2'),
+         url('./wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff') format('woff'),
+         url('./wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2') format('woff2'),
+         url('./wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff') format('woff'),
+         url('./wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.ttf') format('truetype');
+}
+
+/* Clases para iconos */
+.fas, .fa-solid {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+}
+
+.fab, .fa-brands {
+    font-family: 'Font Awesome 6 Brands';
+    font-weight: 400;
+}
+
+.eicon {
+    font-family: 'eicons';
+    font-weight: 400;
+}
