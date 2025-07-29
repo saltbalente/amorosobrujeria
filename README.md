@@ -95,7 +95,6 @@ El sitio está optimizado para ser desplegado en cualquier servidor web estátic
 ## Contacto y Consultas
 
 - **WhatsApp**: [+1 (425) 245-3250](https://wa.me/14252453250?text=Bendiciones%2C%20ocupo%20ayuda%20del%20maestro)
-- **Sitio Web**: [consulta.maestrolujan.com](https://consulta.maestrolujan.com)
 
 ## Licencia
 
